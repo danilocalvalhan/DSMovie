@@ -1,18 +1,27 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+:root {
+    --bg-cinza: #E8E8E8;
+    --ft-branco: #FFFFFF;
+    --bg-azul: #4D41C0;
+}
+
 * { 
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
-    background-color: #E8E8E8;
+    background-color: var(--bg-cinza);
 }
 
 header {
-    background-color: #4D41C0;
-    color: #FFFFFF;
+    background-color: var(--bg-azul);
+    color: var(--ft-branco);
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -22,9 +31,35 @@ nav {
     
 }
 
-a{
-    color: unset; text-decoration: none;
+nav h1 {
+    font-weight: 700;
+    font-size: 24px;
 }
-a:hover{
-   color: #E8E8E8; text-decoration: none;
+
+nav a{
+    color: unset; 
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+nav a:hover{
+   color: var(--bg-cinza); 
+   text-decoration: none;
+   font-size: 12px;
+   font-weight: 400;        
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} 
+
+.container-space {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-space img {
+    margin-right: 10px;
+    height: 23.41px;
 }
