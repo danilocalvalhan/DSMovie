@@ -6,6 +6,7 @@
     --ft-branco: #FFFFFF;
     --bg-azul: #4D41C0;
     --ft-cinza: #4A4A4A;
+    --ft-cinza-claro: #AAAAAA;
 
 }
 
@@ -137,4 +138,40 @@ h1, h2, h3, h4, h5, h6 {
     height: 620px;
     }
 
+.dsmovie-form-description {
+    margin-bottom: 23px;    
+    color: var(--ft-cinza);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--ft-branco);
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    
+}
 
+.dsmovie-form-group {
+    margin: 20px;
+}
+
+.dsmovie-form-group label {
+    font-size: 12px;
+    color: var(--ft-cinza-claro);
+}
+
+.form-btn {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.dsmovie-form {
+    width: 100%;
+
+}
