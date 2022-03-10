@@ -7,6 +7,8 @@
     --bg-azul: #4D41C0;
     --ft-cinza: #4A4A4A;
     --ft-cinza-claro: #AAAAAA;
+    --ft-dourada: #FFBB3A;
+    --ft-light-gray: #989898;
 
 }
 
@@ -91,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     padding: 9px 15px 20px 15px;
     border-radius: 0 0 8px 8px;
-    min-height: 160px;
+    height: 200px;
     
 }
 
@@ -174,4 +176,30 @@ h1, h2, h3, h4, h5, h6 {
 .dsmovie-form {
     width: 100%;
 
+}
+
+.dsmovie-card-drescription-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dsmovie-card-drescription-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ft-dourada);
+
+}
+
+.dsmovie-card-drescription-bottom img {
+    width: 22px;
+    height: 20px;
+}
+
+.dsmovie-card-drescription-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ft-light-gray);
+    margin-bottom: 10px;
 }
