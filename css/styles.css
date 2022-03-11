@@ -69,8 +69,54 @@ h1, h2, h3, h4, h5, h6 {
     height: 23.41px;
 }
 
+
+
+.dsmovie-pagination-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dsmovie-pagination-box {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+.dsmovie-pagination-box p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--bg-azul);
+    margin-bottom: 0;
+}
+
+.dsmovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--bg-azul);
+    border-radius: 4px;    
+    background-color: var(--ft-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.dsmovie-pagination-box button:disabled {
+    border: 1px solid var(--ft-cinza-claro);    
+} 
+
+.ds-movie-seta-horizontal {
+    transform: rotate(180deg);
+}
+
+.filter-blue {
+    filter: brightness(0%) saturate(100%) invert(27%) sepia(25%) saturate(5358%) hue-rotate(232deg) brightness(90%) contrast(91%);
+}
+
 #dsmovie-card-list {
-    padding: 70px 0 40px 0;
 }
 
 .dsmovie-card {
